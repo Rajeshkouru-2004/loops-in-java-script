@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Write a program to check whether the number is positive, negative, or zero. Additionally, if the number is positive, check if it is even or odd.
+        var a = 0;
+        if (a > 0 && a % 2 == 0) {
+            console.log("the number is even positive");
+        }
+        else if (a > 0 && a % 2 != 0) {
+            console.log("the number is odd positive");
+        }
+        else if (a < 0 && a % 2 == 0) {
+            console.log("the number is even negitive");
+        }
+        else if (a < 0 && a % 2 != 0) {
+            console.log("the number is odd negitive")
+        }
+        else {
+            console.log("0")
+        }
+
+        // write a program to add two numbers if only both are even numbers
+        var i = 22;
+        var j = 32;
+        if (i % 2 == 0 && j % 2 == 0) {
+            r = i + j;
+            console.log(i + "+" + j + "=" + r + " Even Numbers");
+        }
+        else if (i % 2 == 1 && j % 2 == 1) {
+            a = i + j;
+            console.log(i + "+" + j + "=" + a + " Odd Numbers");
+        }
+        else {
+            console.log("invalid");
+        }
+        // Write a program with a num prints the multiplication table for that number from 1 to 10 using a loop.
+
+        n = 5;
+        for (i = 1; i <= 10; i++) {
+            j = n * i;
+            console.log(n + "*" + i + "=" + j)
+        }
+
+    </script>
+</body>
+
+</html>
